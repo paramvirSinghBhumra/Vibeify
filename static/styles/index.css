@@ -1,0 +1,55 @@
+body { /* or any other parent element */
+    display: flex; /* flex behavior (displays children inline) */
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    height: 100vh;
+    margin: 0;
+    background-image: url('peakpx.jpeg'); /* zoom out of image! */
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    text-align: center; /* comes in handy when resizing the browser width, if the text is long/big enough */
+    color: white
+  }
+
+  .semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 200px;
+    background: #fff;
+    /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    /* font-size: xx-large; */
+    font-size: x-large;
+  }
+
+  .semi-transparent-list {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    font-size: small;
+  }
